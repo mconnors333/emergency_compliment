@@ -2,9 +2,9 @@
 
 (function(){
   var app = angular.module("angularComp");
-  app.controller("mainController", mainController);
+  app.controller("complimentsController", complimentsController);
 
-  function mainController() {
+  function complimentsController() {
     var vm = this;
     var randomIndex = Math.floor(Math.random() * data.length);
     vm.data = data[randomIndex];
